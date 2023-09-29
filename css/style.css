@@ -29,6 +29,7 @@ body{
     margin: 10px;
     font-family: 'Noto Sans', sans-serif;
 }
+
 h1 {
     font-family: 'Raleway', sans-serif;
     color: var(--cor-clara);
@@ -114,11 +115,15 @@ img {
     color: var(--cor-intermediaria);
     font-size: 0.8rem;
  }
-.title p {
-    color: var(--cor-clara);
-    font-size: 1rem;
-}
-.bio {
+
+ .bio {
     color: var(--cor-intermediaria);
     text-align: center;
 }
+
+.abbr {
+    color: var(--cor-clara);
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: underline;
+}
+
