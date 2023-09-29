@@ -32,8 +32,6 @@ body{
 h1 {
     font-family: 'Raleway', sans-serif;
     color: var(--cor-clara);
-    text-transform: uppercase;
-    font-weight: 80vw;
     font-size: 2rem;
     text-align: center;
     margin-top: 0.5rem;
@@ -43,12 +41,12 @@ h2{
     color: var(--cor-texto);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-
 
 h3 {
     color: var(--cor-escura);
+    font-size: 1.5rem;
 }
 
 .container {
@@ -62,16 +60,16 @@ h3 {
 }
 
 p{
-    color: var(--cor-escura);
     font-size: 17px;
     line-height: 1.5rem;
 }
 
-.container .left-Side{
+.lado-esquerdo{
     position:relative;
+    color: var(--cor-clara);
     background: var(--cor-escura);
-    padding: 2px;
-    padding: 40px;
+    padding:  40px;
+    text-decoration: none;
 }
 
 .profile{
@@ -97,19 +95,8 @@ p{
     height: 100%;
     object-fit: cover;
 }
-.abbr {
-    text-decoration: none;
-    color: var(--cor-clara);
-}
-.title{
-    color: var(--cor-clara);
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
 
-.container .right-Side{
+.lado-direito{
     position: relative;
     background: var(--cor-clara);
     padding: 40px;
@@ -126,8 +113,8 @@ img {
 .hist {
     color: var(--cor-intermediaria);
     font-size: 0.8rem;
-}
-.parf { 
+ }
+.title p {
     color: var(--cor-clara);
     font-size: 1rem;
 }
