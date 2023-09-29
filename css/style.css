@@ -134,3 +134,9 @@ img {
     text-decoration: none;
     color: var(--cor-clara);
 }
+
+@media screen and (max-width: 800px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
