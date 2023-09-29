@@ -55,7 +55,7 @@ h3 {
     position: relative;
     max-width: 80vw;
     background: var(--cor-clara);
-    margin: 10px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr;
     box-shadow: 0 35px 55px 25px rgba(248, 0, 0, 0.644);
