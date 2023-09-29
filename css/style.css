@@ -57,7 +57,7 @@ h3 {
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px 25px rgb(206, 60, 15);
+    box-shadow: 0 35px 55px 25px rgba(248, 0, 0, 0.644);
 }
 
 p{
@@ -68,8 +68,9 @@ p{
 .lado-esquerdo{
     position:relative;
     color: var(--cor-clara);
-    background: var(--cor-escura);
-    padding:  40px;
+    background-image: url(../images/iron-maiden-music-wallpaper-preview.jpg);
+    background-attachment:fixed;
+    padding: 40px;
     text-decoration: none;
 }
 
@@ -79,7 +80,7 @@ p{
     flex-direction: column;
     align-items: center;
     padding-bottom: 2px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.596);
 }
 
 .profile .imgBx{
