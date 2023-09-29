@@ -119,6 +119,7 @@ img {
  .bio {
     color: var(--cor-intermediaria);
     text-align: center;
+    text-decoration: none;
 }
 
 .abbr {
@@ -127,3 +128,7 @@ img {
     text-decoration: underline;
 }
 
+:link { 
+    text-decoration: none;
+    color: var(--cor-clara);
+}
